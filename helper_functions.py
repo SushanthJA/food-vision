@@ -89,6 +89,10 @@ def make_confusion_matrix(y_true, y_pred, classes=None, figsize=(10, 10), text_s
   ax.xaxis.set_label_position("bottom")
   ax.xaxis.tick_bottom()
 
+  ### Added: Rotate xticks for readability & increase font size (required due to such a large confusion matrix)
+  plt.xticks(rotation=70, fontsize=text_size)
+  plt.yticks(fontsize=text_size)
+
   # Set the threshold for different colors
   threshold = (cm.max() + cm.min()) / 2.
 
@@ -136,7 +140,7 @@ import datetime
 
 def create_tensorboard_callback(dir_name, experiment_name):
   """
-  Creates a TensorBoard callback instance to store log files.
+  Creates a TensorBoard callback instand to store log files.
 
   Stores log files with the filepath:
     "dir_name/experiment_name/current_datetime/"

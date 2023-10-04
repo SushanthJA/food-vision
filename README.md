@@ -26,3 +26,10 @@ Some information about the data:
 * There are 101 different types of food (this means there are 101 different classes).
 * There are around 75,000+ images with labels in the training set.
 * There are around 25,000+ images with labels in the test set.
+
+## 5. Conclusion
+We have achieved the goal that we had set out to achieve, i.e, beating the DeepFood paper.
+
+From the results evaluated, we can confirm that our model has outperformed the model built by the authors of DeepFood paper (whose accuracy was 77.4%), with our model scoring an accuracy of 80.08%.
+
+This model can still be improved by better hyper-parameter tuning.

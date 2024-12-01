@@ -12,11 +12,11 @@ The dataset **`food101`** is also available in TensorFlow Datasets: https://www.
 
 ## 3. Evaluation
 
-Our goal is to beat the DeepFood paper.
+The goal is to beat the DeepFood paper.
 
 They were able to achieve 77.4% top-1 accuracy on Food101 over 2-3 days of training.
 
-So our model needs to score >77.4% accuracy.
+So this model needs to score >77.4% accuracy.
 
 ## 4. Features
 
